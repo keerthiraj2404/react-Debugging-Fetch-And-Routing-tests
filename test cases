@@ -1,0 +1,46 @@
+
+Page should consist of an HTML image element in the header with the given logo URL as src and alt text as "wave"
+319 ms 
+Page should consist of Link from react-router-dom in the header with "Home" as text content
+187 ms 
+Page should consist of Link from react-router-dom in the header with "About" as text content
+175 ms 
+Page should consist of Link from react-router-dom in the header with "Contact" as text content
+185 ms 
+When the Home Route is opened, it should initially consist of an HTML container element with data-testid attribute value as "loader"
+28 ms 
+When the "/about" is provided in the browser tab, then the page should be navigated to About Route and consist of an HTML heading element with "About" as text content
+40 ms 
+When the "/contact" is provided in the browser tab, then the page should be navigated to Contact Route and consist of an HTML heading element with "Contact" as text content
+32 ms 
+When the "/bad-path" is provided in the browser tab, then the page should be navigated to Not Found Route and consist of an HTML heading element with "Not Found" as text content
+32 ms 
+When the About link in the header is clicked, then the page should be navigated to About Route with "/about" in URL path
+203 ms 
+When the Contact link in the header is clicked, then the page should be navigated to Contact Route with "/contact" in URL path
+176 ms 
+When the Home link in the header is clicked, then the page should be navigated to Home Route with "/" in URL path
+81 ms 
+Page should consist of an HTML heading element with "Wade Warren" as text content when rendering Home Route initially
+89 ms 
+Page should consist of an HTML image element with alt text as "profile"
+32 ms 
+Page should consist of an HTML paragraph element with "Software developer at UK" as text content when rendering HomeRoute initially
+28 ms 
+Home Route should consist of HTML heading elements with text content as the value of the "title" key received in the API response
+161 ms 
+Home Route should consist of HTML paragraph elements with text content as the value of the "author" key received in response for each blog item
+28 ms 
+When the Home Route is opened, an HTTP GET request should be made to the given blogsApiUrl to get the list of blogs
+24 ms 
+Each blog item should be wrapped with Link from react-router-dom
+286 ms 
+When a blog item is clicked in Home Route, then the page should be navigated to the Blog Item Details Route with "/blogs/:id" in the URL
+140 ms 
+When "/blogs/:id" is provided in the URL, then the page should be navigated to the Blog Item Details Route and consist of an HTML heading element with text content as the value of the "title" key received in the API response
+76 ms 
+When navigated to a blog post, then the page should consist of an HTML image element with alt as the value of the "title" key and src as the value of the "image_url" key received in the API response
+91 ms 
+When navigated to a blog post, then the page should consist of an HTML image element with alt as the value of the "author" key and src as the value of the "avatar_url" key received in the API response
+123 ms 
+When navigated to a blog post, then the page should consist of an HTML paragraph element with text content as the value of the "content" key received in the API response
